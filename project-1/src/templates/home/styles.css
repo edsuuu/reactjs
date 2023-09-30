@@ -1,10 +1,17 @@
 .container {
+  margin: 10px;
   min-height: 100vh;
-  background-color: #b1a9a9;
+  /* background-color: #686565; */
   margin: auto;
 }
 
-/* .button-container {
+.button-container {
+  min-height: 60px;
+  display: flex;
+  align-items: flex-end;
 
+}
 
-} */
+.pesquisa {
+  margin: 20px;
+}
