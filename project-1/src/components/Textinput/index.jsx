@@ -1,4 +1,4 @@
 import './style.css'
 export const TextInput = ({ searchValue, handleChange }) => {
-    return <input onChange={handleChange} value={searchValue} type="search" />;
+    return <input onChange={handleChange} value={searchValue} type="search" placeholder='Digite sua pesquisa'/>;
 };
