@@ -4,8 +4,7 @@ import { Posts } from "../../components/Posts";
 import { loadPosts } from "../../utils/load-posts";
 import { Button } from "../../components/Button";
 import { TextInput } from "../../components/Textinput";
-import { Paragraph } from "../../components/Paragraph";
-import { Link } from "../../components/Link";
+
 
 export class Home extends Component {
   state = {
@@ -76,11 +75,6 @@ export class Home extends Component {
               disabled={noMorePost}
             />
           )}
-        </div>
-
-        <div className="textos">
-            <Paragraph />
-            <Link />
         </div>
       </section>
     );
